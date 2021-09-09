@@ -1,0 +1,37 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-color: lightgreen;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+body{
+    background-size: cover;
+}
+
+.play_button{
+    width: 160px;
+    font-size: 25px;
+}
+canvas{
+  border-radius: 20px;
+  box-shadow: 15, 18, 30 skyblue;
+  border: 5px solid red;
+}
+.play_button:hover{
+    background-color: skyblue;
+    box-shadow: 15, 15, 40 black;
+    transform: 2s;
+    transition: ease-in-out;
+    transition-duration: 1000ms;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    color: white;
+}
